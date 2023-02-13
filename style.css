@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    background-color:rgb(40, 43, 40);        
+    margin: auto; /* Auto */
+    overflow: hidden;
+}
+
+nav{
+    height: 15%;
+    display: flex;
+    /* align-items: center; */
+     justify-content:space-around;
+     margin-left: 5%;
+     margin-top: 4%;
+     margin-right: 5%;
+     margin-bottom: 1%;
+}
+
+.logopic{
+    width: 70%;
+    height: 50%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+
+div{
+    display: flex;
+    height:35%;
+    margin-top: -1%;
+    
+ 
+}
+
+div section{
+    width: 50%;
+}
+
+.leftsection{
+    font-size: 30px;
+    margin: 3% 14%;
+    color: aliceblue;
+    font-style: normal;
+    font-weight: 300;
+    
+    /* margin-left: 180px; */
+}
+
+.rightsection{
+    font-size: 20px;
+    margin-top: 3%;
+    margin-right: 10%;
+    color: rgb(236, 213, 213);
+    font-style: normal;
+   
+}
+
+.endpic{
+
+    width: 700px;
+    height: 400px;
+    margin-top: 0%;
+    margin-left: 15%;
+
+
+}
+
+.button-bar{
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin-top: -1.5%;
+    color: yellow;
+    border-color: yellow;
+}
+
+#list-colour{
+    color: rgb(248, 226, 226);
+    font-style: normal;
+}
+
+.button-bar{
+    background-color: rgb(41, 38, 38);
+    
+}
+
+
+
+
+
+
